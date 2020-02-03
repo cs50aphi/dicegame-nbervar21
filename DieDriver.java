@@ -4,7 +4,7 @@ public class DieDriver
 {
     public static void main(String[] args)
     {
-        Die die = new Die();
+        Die die = new Die(4);
         boolean gameOver = false;
         int goal = 100;
         int numPlayers = 8;
